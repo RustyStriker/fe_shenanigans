@@ -9,7 +9,7 @@ export default {
 </script>
 
 <template>
-    <div style="width:100%; margin: auto; display: flex; flex-direction: row; color: black; background-color: #fca9a9">
+    <div style="width:100%; margin: auto; display: flex; flex-direction: row; color: black; background-color: #d7e8ba">
         <div class="hovermenu" style="margin: 8px 16px; display: flex;">
             <img src="../assets/logo.svg" height="32px" style="align-self: center;" />
             <div class="menu" style="width:max-content; padding-right: 8px;">
@@ -20,7 +20,7 @@ export default {
                 </ul>
             </div>
         </div>
-        <p>Very Cool Flight Planner: {{ title ?? 'TITLE MISSING WTF' }}</p>
+        <p style="color: black; font-weight: bolder;">Very Cool Flight Planner: {{ title }}</p>
     </div>
 </template>
 <style scoped>

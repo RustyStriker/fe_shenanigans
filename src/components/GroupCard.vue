@@ -10,8 +10,11 @@ export default {
 </script>
 <template>
     <div class="glowHover"
-        style="display: flex; flex-direction: column; background-color: #9090fc; padding: 0px; border-radius: 8px; margin: 8px;">
-        <h3 style="align-self: center;">{{ title }}</h3>
+        style="display: flex; flex-direction: column; background-color: #d7e8ba; padding: 0px; border-radius: 8px; margin: 8px;">
+        <div style=" display: flex; flex-direction: column; border-radius: 8px 8px 0px 0px;">
+            <h3 style="align-self: center;">{{ title }}</h3>
+
+        </div>
         <img :src="imageUrl" width="512">
         <div style="flex-grow: 1"></div>
         <div style="display: flex; padding: 0px 8px;">
@@ -27,6 +30,6 @@ export default {
 }
 
 .glowHover:hover {
-    box-shadow: 4px 4px 8px blue;
+    box-shadow: 0px 0px 16px #ffa630;
 }
 </style>
