@@ -20,7 +20,7 @@ export default {
                 </ul>
             </div>
         </div>
-        <p>{{ title ?? 'TITLE MISSING WTF' }}</p>
+        <p>Very Cool Flight Planner: {{ title ?? 'TITLE MISSING WTF' }}</p>
     </div>
 </template>
 <style scoped>
